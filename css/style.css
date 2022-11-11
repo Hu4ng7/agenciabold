@@ -1,0 +1,345 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    padding:0 2%;
+    display:flex;
+    margin:0 auto;
+}
+header{
+    max-width: 100%;
+    background-position: center;
+    width:100%;
+    height:900px;
+    background-image: url('../images/bg.svg');
+}
+.logo{
+    width:50%;
+    margin-top: 50px;
+}
+.opcoes{
+    width:70%;
+    margin-top:50px;
+}
+.opcoes a{
+    font-weight: bold;
+    margin:20px;
+    color:white;
+    text-decoration: none;
+}
+.opcoes a:hover{
+    border-bottom: 3px solid #FFDD33;
+    border-radius: 2px;
+}
+.opcoes input{
+    cursor:pointer;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 40px;
+    border-radius: 5px;
+    padding:13px;
+    border:0;
+    color:white;
+    background-color:#0F3FD3;
+}
+.opcoes input:hover{
+    background-color: #0b33ac;
+}
+.mockup{
+    max-width: 90%;
+    font-weight: normal;
+    text-align: center;
+    color:white;
+    margin:0 auto;
+    margin-top: 100px;
+}
+.mockup h2{
+    font-size: 50px;
+}
+.mockup p{
+margin-top: 10px;
+}
+.mockup img{
+    width:80%;
+    margin-top: 50px;
+}
+.logos{
+    margin-top: 200px;
+}
+.logos img{
+    width:20%;
+}
+
+.porque-nos h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+.porque-nos p{
+    text-align: center;
+    margin-top: 10px;
+}
+.porque-nos .box{
+    margin:0 2%;
+    padding:2% 2%;
+    text-align: left;
+    margin:0 auto;
+    width:32%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 20px 40px #2426721C;
+    border-radius: 20px;
+}
+.porque-nos .boxes{
+    margin:0 auto;
+    max-width: 1200px;
+    margin-top: 50px;
+    width:100%;
+    display: flex;
+}
+.porque-nos .box img{
+    width:40%;
+    text-align: left;
+}
+.boxes .box p{
+    margin-top: 30px;
+    color:#7E92AC;
+    text-align: left;
+}
+.banner{
+    margin-top: 100px;
+    background-image: url('../images/banner.png');
+    height:250px;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    color:white;
+    padding-top: 30px;
+}
+.banner h2{
+    font-size: 50px;
+}
+.banner p{
+    margin-top: 10px;
+}
+.banner input{
+    margin-top: 20px;
+    border:0;
+    color:#0F3FD3;
+    background-color: #FFDD33;
+    padding:10px 20px;
+    font-size:14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner input:hover{
+    background-color: #ebcc33;
+}
+.beneficios{
+    margin:0 auto;
+    padding-top:150px;
+    width:100%;
+}
+
+.beneficios .lista-beneficios{
+    margin-top: 30px;
+    width:45%;
+    margin-left: 0 2%;
+}
+.lista-beneficios h3{
+    font-size: 50px;
+    margin:30px 35px;
+    width:100%;
+
+}
+.lista-beneficios p{
+    font-size: 14px;
+    vertical-align:middle;
+    color:#7E92AC;
+}
+.lista-beneficios span{
+    display:inline-block;
+    width: calc(100% - 120px);
+}
+
+.lista-beneficios img{
+    display:inline-block;
+    width:20%;
+    vertical-align: middle;
+}
+.coding{
+    text-align: right;
+    width:60%;
+
+}
+.coding img{
+    width:100%;
+}
+.lista-beneficios input{
+    color:white;
+    border:0;
+    background-color: #255AFF;
+    padding:15px 30px;
+    border-radius: 10px;
+    cursor:pointer;
+    margin-left: 35px;
+    margin-top:20px;
+}
+.lista-beneficios input:hover{
+    background-color: #1b49d3;
+}
+.depoimentos h2{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+}
+.depoimentos .boxes-depoimentos{
+    display:flex;
+    margin-top: 30px;
+}
+.depoimentos .box-depoimentos{
+    padding:1% 3%;
+    margin:0 5px;
+    width:30%;
+    background-color: white;
+    box-shadow: 0px 20px 40px #2426721C;
+    padding-top: 50px;
+    text-align: center;
+}
+.depoimentos .center{
+    max-width: 1200px;
+    margin:50 auto;
+}
+.box-depoimentos:first-of-type {
+    width:40%;
+
+    }
+    .box-depoimentos p{
+        margin-top: 10px;
+        color:#7E92AC;
+        font-weight: normal;
+    }
+    .box-depoimentos p:first-of-type{
+        color:black;
+        font-size: 25px;
+    }
+    .box-depoimentos img{
+        padding-top: 10px;
+    }
+     .bullets{
+        margin-top:30px;
+       text-align: center;
+    }
+    .bullets .bullet{
+            margin:0 8px;
+            cursor: pointer;
+            display: inline-block;
+            width:16px;
+            height:16px;
+            border-radius:10px;
+            background-color: #ccc;
+        }
+
+    .bullets .active-bullet{
+            background-color:#255AFF;
+    }
+
+    .form{
+        margin-top: 200px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .form h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .form input{
+        margin-top: 20px;
+        width:55%;
+        height:50px;
+        border-radius: 5px;
+        border:1px solid #ccc;
+        padding:10px 10px;
+    }
+    .form textarea{
+        margin-top: 20px;
+        border-radius: 5px;
+        border:1px solid #ccc;
+        width:55%;
+        height:200px;
+        padding:10px 10px;
+        resize: vertical;
+    }
+    .form input[type=submit]{
+        border:0;
+        background-color: #255AFF;
+        color:white;
+        font-size: 17px;
+        cursor:pointer;
+    }
+    .form input[type=submit]:hover{
+        background-color: #1b49d3;
+    }
+    footer{
+        margin-top: 150px;
+        background-color: #255AFF;
+        height:70px
+    }
+    footer p{
+        color:white;
+        font-weight: normal;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    footer .opcoes{
+        text-align: right;
+        width:70%;
+        margin-top:10px;
+    }
+   
+    
+@media screen and (max-width:1060px){
+    .mockup img{
+        width:100%;
+        margin-top: 50px;
+    }
+
+    .logos{
+        text-align: center;
+    }
+
+    .logos img{
+        width:100%;
+    }
+
+    .porque-nos .box{
+        width:80%;
+    }
+}
+@media screen and (max-width:768px){
+    .mockup img{
+        width:100%;
+        margin-top: 50px;
+    }
+
+    .logos{
+        text-align: center;
+    }
+
+    .logos img{
+        width:100%;
+    }
+
+    .porque-nos .box{
+        width:80%;
+    }
+}
+
+
